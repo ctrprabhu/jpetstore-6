@@ -223,10 +223,7 @@
           <configuration>
             <container>
               <containerId>${cargo.maven.containerId}</containerId>
-              <zipUrlInstaller>
-                <url>${cargo.maven.containerUrl}</url>
-              </zipUrlInstaller>
-            </container>
+             </container>
             <daemon>
               <properties>
                 <cargo.daemon.url>http://localhost:18000</cargo.daemon.url>
